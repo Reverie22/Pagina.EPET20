@@ -1,0 +1,31 @@
+body {background: rgb(34, 34, 34);
+	color: rgb(231, 175, 31);
+	padding-bottom: 25px;
+	border-top: 5px solid rgb(231, 175, 31); }
+	main {padding: 30px;
+		border-top: 5px solid rgb(231, 175, 31) ;}
+		a ul{list-style-type:none;}
+h1 {text-align: center;}
+h1 {font-size: 36px;}
+h2 {text-align: center;
+margin-bottom: 75px;}
+div {}
+
+	
+	a {color: rgb(231, 175, 31);
+		margin-left: 220px;}
+	p {font-size: 20px;
+		text-align: center;
+	 padding-left: 100px;
+	 padding-right: 100px;
+	 padding-top: 100px;
+	
+	padding-bottom: 600px;
+	border: 5px solid rgb(231, 175, 31) ;}
+nav	 a:hover {Color: rgb(250, 103, 4)}
+.navbar {
+	margin-bottom: 20px;
+  }
+  
+
+
