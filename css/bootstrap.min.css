@@ -70,12 +70,18 @@ img {Margin-left: 525px;}
         padding-right: 25px;
         padding-bottom: 25px;}
 	p {font-size: 14px;
-		
-	
-	
-	
-    }
-nav	 a:hover {Color: rgb(250, 103, 4)}
+        
+    
+        
+       
 
+}
+nav	 a:hover {Color: rgb(250, 103, 4);}
+
+div.row {background-color: rgb(230, 175, 31);
+    color: rgb(34, 34, 34);
+    border-radius: 20px;
+    border: #000 solid;
+}
 
 
