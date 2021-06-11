@@ -63,10 +63,12 @@ margin-bottom: 75px;}
 
 img {Margin-left: 525px;}
 
+	nav .btn shadow {Color: rgb(250, 103, 4);}
 	
-	
-    nav, .btn {color: rgb(231, 175, 31);
+    nav, .btn {color: rgb(231, 175, 31); 
         
+
+      
         text-align: center;
         padding-right: 25px;
         padding-bottom: 25px;}
@@ -77,11 +79,11 @@ img {Margin-left: 525px;}
        
 
 }
-nav	 a:hover {Color: rgb(250, 103, 4);}
+
 
 div.row {background-color: rgb(230, 175, 31);
     color: rgb(34, 34, 34);
     border-radius: 20px;
     border: #000 solid;
 }
-
+div.drop.down {padding-left: 300px;}
