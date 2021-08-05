@@ -1,7 +1,13 @@
 alert("Hola! Bienvenido a Caulher.");
 var etiqueta = document.createElement("h1")
 var contenido = document.createTextNode("Caulher")
-var contenido = document.createTextNode("Servicios Integrales")
+var contenido2 = document.createTextNode("Servicios Integrales")
+
+
+etiqueta.appendChild(contenido.colors.red);
+
+
+
 
 
 
