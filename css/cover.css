@@ -18,7 +18,10 @@ a:hover {
   text-shadow: none; /* Prevent inheritance from `body` */
   background-color: rgb(199, 129, 0);
   border: .05rem solid rgb(199, 129, 0);
+
 }
+/* Animacion Scroll*/
+ 
 
 
 /*
@@ -26,10 +29,11 @@ a:hover {
  */
 
 html,
-body {
+body.text-center {
   height: 100%;
   background-color: rgb(34, 34, 34)
 }
+
 
 body {
   display: -ms-flexbox;
@@ -43,13 +47,14 @@ body {
   box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
   
 }
+  
 div.titulo {
   margin-top: 300px;
   }
   
 
 div.imageness {
-  margin-top: 750px;
+  margin-top: 700px;
 }
 
 .container.imagenes {
@@ -136,6 +141,7 @@ order: 2;
   color: rgba(255, 255, 255, .5);
   background-color: transparent;
   border-bottom: .25rem solid transparent;
+
 }
 
 .nav-masthead .nav-link:hover,
@@ -149,7 +155,8 @@ order: 2;
 
 .nav-masthead .nav-link:focus {
   color: #fff;
-  border-bottom-color: rgb(199, 129, 0);  
+  border-bottom-color: rgb(199, 129, 0); 
+   
 }
 
 @media (min-width: 20em) {
