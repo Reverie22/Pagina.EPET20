@@ -1,13 +1,17 @@
 
- addEventListener('DOMContentLoaded', () =>{
- const boton1 = document.querySelector('#boton11');
-const irarriba = () => {
-  if (usuariohaceclick() > 0) {
-    scrollto(0,0);
-  }
+ addEventListener('DOMContentLoaded', () => {
+ const boton_ir_arriba = document.querySelector('#boton11');
 
+
+ const obtener_pixeles = () => document.documentElement.scrollTop || document.body.scrollTop
+const irArriba = () => {
+  if (obtener_pixeles() > 0) {
+    requestAnimationFrame(irArriba)
+    scrollTo (1, obtener_pixeles() - (obtener_pixeles() / 20))
+  }
+  
 }
- boton1.addEventListener('click', irarriba);
+boton_ir_arriba.addEventListener('click', irArriba,);
 })
 
 
