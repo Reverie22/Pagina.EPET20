@@ -1,5 +1,5 @@
 
- addEventListener('DOMContentLoaded', () => {
+/* addEventListener('DOMContentLoaded', () => {
  const boton_ir_arriba = document.querySelector('#boton11');
 
 
@@ -11,8 +11,8 @@ const irArriba = () => {
   }
   
 }
-boton_ir_arriba.addEventListener('click', irArriba,);
-})
+boton_ir_arriba.addEventListener('click', irArriba,); 
+})*/
 
 
 
