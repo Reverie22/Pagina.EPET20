@@ -225,14 +225,14 @@ order: 2;
 div.logo_whatsapp{
   width:70px ;height:69px; 
   position: fixed;
-  left: -5px;
+  right: 20px;
   bottom: 10px;
   padding: 3px;
 }
 div.logo_instagram{
-  width:70px ;height:70px; 
+  width:73px ;height:73px; 
   position: fixed;
-  left: 45px;
+  right: 70px;
   bottom: 28px;
   padding: 2px;
 }
