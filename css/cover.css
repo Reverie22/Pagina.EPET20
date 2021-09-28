@@ -3,6 +3,14 @@
  */
 
 /* Links */
+/*imagen fondo*/
+div.imagen_fondo {
+  background-image: url(../imagenes/imagen_ilustrativa_3.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 20em;
+}
 
 a,
 a:focus,
@@ -49,7 +57,7 @@ html{
 html,
 body.text-center {
   height: 100%;
-  background-color: rgb(34, 34, 34)
+  background-color: rgb(34, 34, 34);
 
 }
 
@@ -155,7 +163,7 @@ margin-bottom: 2rem;
 .card > div {
   padding: 2rem;
 }
-.card:nth-child(even) .img {
+section.card:nth-child(even) .img {
 order: 2;
 }
 
