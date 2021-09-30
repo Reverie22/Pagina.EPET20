@@ -221,7 +221,12 @@ order: 2;
   }
 }
 
-
+div.contacto{
+  text-align: left;
+}
+div.contacto h4.comunicacion{
+  text-decoration: underline;
+}
 /*
  * Cover
  */
