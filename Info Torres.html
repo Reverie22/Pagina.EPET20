@@ -51,7 +51,38 @@
 
 
             <div class="Imagentorre" id="Sec-2"></div>
-            <img src="imagenes/Torre1.jpg" alt="">
+            <img name="slider" width="" height="">
+           <script>
+                /*CARROUSEL*/
+     window.addEventListener('load', function() {
+      console.log("carga");
+      var imagenes = [];
+      imagenes[0] = 'imagenes/Torre1.jpg';
+      imagenes[1] = 'imagenes/Torre2.jpg';
+      imagenes[2] = 'imagenes/Torre3.jpg';
+      imagenes[3] = 'imagenes/Torre4.jpg';
+      imagenes[4] = 'imagenes/Torre5.jpg';
+      imagenes[5] = 'imagenes/Torre6.jpg';
+      imagenes[6] = 'imagenes/Torre11.jpg';
+      imagenes[7] = 'imagenes/Torre12.jpg';
+      imagenes[8] = 'imagenes/Torre13.jpg';
+
+      var IndiceImagenes = 0;
+      function CambiarImagenes() {
+
+        document.slider.src = imagenes [IndiceImagenes];
+        if (IndiceImagenes < 8) {
+          IndiceImagenes++ ;
+        } else{
+          IndiceImagenes = 0;
+        }
+
+        
+      }
+      setInterval(CambiarImagenes, 2000)
+    });
+
+           </script>
   
           </div>
         </div>
