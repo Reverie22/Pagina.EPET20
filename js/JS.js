@@ -1,7 +1,68 @@
 console.log("holas")
 
 
-  
+        /*CARROUSEL*/
+        window.addEventListener('load', function() {
+          console.log("carga");
+          var imagenes = [];
+          imagenes[0] = 'imagenes/Torre1.jpg';
+          imagenes[1] = 'imagenes/Torre2.jpg';
+          imagenes[2] = 'imagenes/Torre3.jpg';
+          imagenes[3] = 'imagenes/Torre4.jpg';
+          imagenes[4] = 'imagenes/Torre5.jpg';
+          imagenes[5] = 'imagenes/Torre6.jpg';
+          imagenes[6] = 'imagenes/Torre10.jpg';
+          imagenes[7] = 'imagenes/Torre22.jpg';
+          imagenes[8] = 'imagenes/Torre18.jpg';
+    
+          var IndiceImagenes = 0;
+          function CambiarImagenes() {
+    
+            document.slider.src = imagenes [IndiceImagenes];
+            if (IndiceImagenes < 8) {
+              IndiceImagenes++ ;
+            } else{
+              IndiceImagenes = 0;
+            }
+    
+            
+          }
+          setInterval(CambiarImagenes, 2000)
+        });
+
+        console.log("holas")
+
+
+                      /*CARROUSEL HORIZONTALES*/
+                      window.addEventListener('load', function() {
+                        console.log("carga");
+                        var imagenesH = [];
+                        imagenesH[0] = 'imagenes/Torre9.jpg';
+                        imagenesH[1] = 'imagenes/Torre11.jpg';
+                        imagenesH[2] = 'imagenes/Torre12.jpg';
+                        imagenesH[3] = 'imagenes/Torre13.jpg';
+                        imagenesH[4] = 'imagenes/Torre14.jpg';
+                        imagenesH[5] = 'imagenes/Torre15.jpg';
+                        imagenesH[6] = 'imagenes/Torre19.jpg';
+                        imagenesH[7] = 'imagenes/Torre20.jpg';
+                        imagenesH[8] = 'imagenes/Torre21.jpg';
+                  
+                        var IndiceImagenesH = 0;
+                        function CambiarImagenesH() {
+                  
+                          document.slider2.src = imagenesH [IndiceImagenesH];
+                          if (IndiceImagenesH < 8) {
+                            IndiceImagenesH++ ;
+                          } else{
+                            IndiceImagenesH = 0;
+                          }
+                  
+                          
+                        }
+                        setInterval(CambiarImagenesH, 2000)
+                      });
+                  
+    
 
 
 
