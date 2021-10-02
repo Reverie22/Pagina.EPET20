@@ -177,6 +177,7 @@ order: 2;
 
 
 
+
 /*
  * Header
  */
@@ -258,4 +259,7 @@ div.logo_instagram{
   right: 70px;
   bottom: 28px;
   padding: 2px;
+}
+div.Imagentorre {
+  height: 100%;
 }
