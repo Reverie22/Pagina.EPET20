@@ -28,6 +28,15 @@ a:hover {
   border: .05rem solid rgb(199, 129, 0);
 
 }
+
+p {
+  font-family: 'Noto Sans Mono', monospace;
+}
+h1, h2, h3 {
+  font-family: 'Noto Sans Mono', monospace;
+}
+
+
 /* Animacion Scroll*/
 div.Sec-1T{
   margin-top: 20rem;
@@ -53,6 +62,7 @@ div.Imagen1 {
  */
 html{
   scroll-behavior: smooth;
+  
 }
 html,
 body.text-center {
@@ -263,3 +273,4 @@ div.logo_instagram{
 div.Imagentorre {
   height: 100%;
 }
+
