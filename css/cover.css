@@ -82,6 +82,12 @@ justify-content: center;
 
 }
 
+.inner.cover {
+  padding-bottom: 430px;
+}
+
+
+
 .Sec-2 {
   display: -ms-flexbox;
   display: -webkit-box;
@@ -116,7 +122,10 @@ h3.masthead-brand {
 div.titulo {
   margin-top: 300px;
   }
-  
+  div.titulo2 {
+    margin-top: 150px;
+    }
+    
 
 div.imageness {
   margin-top: 15px;
@@ -355,6 +364,7 @@ div.contacto h4.comunicacion{
  * Footer
  */
 .mastfoot {
+ 
   color: rgba(255, 255, 255, .5);
 }
 div.logo_whatsapp{
