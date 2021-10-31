@@ -99,9 +99,11 @@ header .contenedor{
 }
 
 .menu a:hover{
-  background: rgb(5, 5, 5);
+  background: rgb(78, 78, 78);
   color: rgb(199, 129, 0);
- 
+ transform: scale(1.2);
+ transform: translateY(-5px);
+ box-shadow: #333;
   
 }
 
