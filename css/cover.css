@@ -95,6 +95,7 @@ header .contenedor{
   transition: 0.2s;
   padding: 15px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  text-align: center;
 }
 
 .menu a:hover{
@@ -217,8 +218,9 @@ color: #fff;
 }
 #info .contenedor {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
+  flex-wrap: wrap;
+  
 
 }
 .info-pet {
