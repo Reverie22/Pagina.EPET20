@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Noto Sans Mono', monospace;
+   
     
 }
 #particles-js {
@@ -17,6 +18,8 @@
     position: fixed;
     width: 100%;
     height: 100%;
+    height: 100vh;
+    width: 100%;
     
 }
 

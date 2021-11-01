@@ -84,7 +84,7 @@ header .contenedor{
   height: 100vh;
   background: rgba(51, 51, 51, 0.9);
   transition: all 0.5s;
-  transform: translateX(-100%);
+  transform: translateX(100%);
 }
 .menu a{
   display: block;
@@ -222,8 +222,8 @@ color: #fff;
 
 }
 #info .contenedor {
-  display: flex;
   justify-content: center;
+  display: flex;
   flex-wrap: wrap;
   
 
@@ -236,7 +236,7 @@ color: #fff;
   width: 180px;
   height: 180px;
   border-radius: 50%;
-  border: 7px solid rgb(199, 129, 0);
+  border: 7px solid rgb(168, 168, 168);
 }
 
 
