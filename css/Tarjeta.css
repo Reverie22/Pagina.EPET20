@@ -152,7 +152,10 @@ transform: translate(-50%);
 
 
 .botoninicio {
- 
+
+    display: flex;
+    position:  static;
+    margin: 15px 20px;
     color: white;
     background: #e7e7e7;
     padding: 5px 20px;
@@ -161,6 +164,7 @@ transform: translate(-50%);
     position: absolute;
     bottom: 15%;
     z-index: 100;
+    transform: translateX(250px) translateY(75px) scale(0.6);
 }
 .botoninicio a{
     text-decoration: none;
@@ -174,12 +178,12 @@ transform: translate(-50%);
     
 }
 
-@media (max-width:680px) {
+@media (min-width:680px) {
     .botoninicio {
-        position: absolute;
-        display: flex;
-        flex-wrap: wrap;
-        transform: translateX(250px) translateY(75px);
+        position:  static;
+        
+        transform: translateX(-400px) translateY(300px) scale(1);
+        
     
         
 
@@ -189,3 +193,5 @@ transform: translate(-50%);
         font-size: 12px;
     }
 }
+
+
