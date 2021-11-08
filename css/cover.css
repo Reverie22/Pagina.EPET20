@@ -1,3 +1,4 @@
+@import url(InfoCaulher.css);
 @import url(Contactanos.css);
 *{
   font-family:'Noto Sans Mono', monospace;
@@ -182,6 +183,7 @@ color: #fff;
 }
 #Banner a:hover {
   background: rgba(51, 51, 51, 0.5);
+  transition: all 0.3s;
 }
 
 
