@@ -1,3 +1,9 @@
-.tuki{
-  background: wheat;
+
+#Textoinfo {
+  display: flex;
+padding: 100px;
+ 
+
+  background: #333;
+
 }
