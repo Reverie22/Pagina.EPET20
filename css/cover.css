@@ -280,7 +280,15 @@ background: rgb(83, 83, 83);
 border-radius: 5px;
 box-shadow: 6px 6px 5px rgba(0, 0, 0, 0.322);
 }
+#Textovideo3 p{
+  color: #E4AC20;
+}
 
+#Textovideo3{
+  background: rgb(83, 83, 83);
+border-radius: 5px;
+box-shadow: 6px 6px 0px rgba(0, 0, 0, 0.322);
+}
 
 
 
