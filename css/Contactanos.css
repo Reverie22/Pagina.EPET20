@@ -19,6 +19,9 @@ hr{
     width:60%;
     margin-left: 20%;
 }
+a{
+    text-decoration: none;
+}
 #Mapa h3 {
     text-align: center;
     padding-top: 20px;
