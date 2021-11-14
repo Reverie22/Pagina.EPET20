@@ -7,14 +7,19 @@
 
     
 }
+#Bienvenidos hr{
+    padding-top: 10px;
+}
 #telefonos h3{
     text-align: center;
-    padding-top: 20px;
     padding-bottom: 20px;
 }
 #telefonos h4{
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
+}
+#telefonos hr{
+    padding-top: 10px;
 }
 #Mapa h3 {
     text-align: center;
