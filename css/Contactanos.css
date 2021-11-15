@@ -7,6 +7,22 @@
 
     
 }
+#telefonos h3{
+    text-align: center;
+    padding-bottom: 20px;
+}
+#telefonos h4{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+hr{
+    width:60%;
+    margin-left: 20%;
+}
+a{
+    text-decoration: none;
+    color:#E4AC20;
+}
 #Mapa h3 {
     text-align: center;
     padding-top: 20px;
