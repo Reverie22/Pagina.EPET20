@@ -41,6 +41,23 @@ section {
 /*-----------------GENERAL--------------------*/
 
 
+/*-----------------Scroll--------------------*/
+body::-webkit-scrollbar {
+  width: 0.4375em;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: rgb(218, 162, 41);
+  border-radius: 5px;
+}
+
+
+
+/*-----------------Scroll--------------------*/
+
+
+
+
 
 /*-----------------NAVEGACION-----------------*/
 #Inicio {
@@ -243,6 +260,7 @@ color: #fff;
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
+  
   
 
 }
