@@ -288,7 +288,8 @@ color: #fff;
 
 /*-----------------Videos-----------------*/
 
-#Videos {
+.Videos1 {
+  float: left;
 margin: 50px;
 
 }
@@ -325,9 +326,10 @@ margin-bottom: 15px;
 #Textovideo3 {
   margin-top: 30px;
   background: rgb(83, 83, 83);
-  
+
   border-radius: 5px;
   box-shadow: 6px 6px 5px rgba(0, 0, 0, 0.322);
+  
   
   
   }
