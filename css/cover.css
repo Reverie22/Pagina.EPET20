@@ -256,7 +256,13 @@ color: #fff;
   padding: 20px;
 
 }
-#info .contenedor {
+.contenedorVideos {
+  width: 98%;
+  margin: auto;
+  
+}
+#info .contenedorVideos {
+  
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
@@ -278,6 +284,8 @@ color: #fff;
 
 
 /*-----------------GaleriaDeImagenes2-----------------*/
+
+
 /*-----------------Videos-----------------*/
 
 #Videos {
