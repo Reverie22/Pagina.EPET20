@@ -43,6 +43,10 @@ section {
 
 
 /*-----------------NAVEGACION-----------------*/
+#Inicio {
+  text-align: center;
+}
+
 #LogoC {
   margin-top: 4px;
   margin-left: 170px;
@@ -265,6 +269,7 @@ margin: 50px;
 
 .info-pet {
   background: rgb(48, 48, 48);
+padding-bottom: 30px;
   
 }
 
@@ -312,6 +317,7 @@ box-shadow: 6px 6px 5px rgba(0, 0, 0, 0.322);
 
 #Textovideo3 p{
   color: rgb(221, 178, 59);
+  margin-bottom: 30px;
   
   
  
