@@ -15,9 +15,12 @@
     padding-top: 10px;
     padding-bottom: 20px;
 }
-hr{
-    width:60%;
-    margin-left: 20%;
+.wsp {
+    width: 600px;
+    margin: auto;
+   border-top: rgb(221, 226, 204) solid;
+   border-bottom: rgb(221, 226, 204) solid;
+   
 }
 a{
     text-decoration: none;
