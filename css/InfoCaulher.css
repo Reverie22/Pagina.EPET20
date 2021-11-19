@@ -1,9 +1,25 @@
 
 #Textoinfo {
-  display: flex;
+  border-radius: 10px;
 padding: 100px;
+  background: #333;
  
 
-  background: #333;
-
 }
+
+#Textoinfo p{
+    color: #E4AC20;
+    line-height: 2;
+  
+  }
+
+#Textoinfo h4{
+margin-top: 25px;
+margin-bottom: 25px;
+  text-align: left;
+  }
+
+  #Textoinfo  h3{
+margin-bottom: 15px;
+
+  }
