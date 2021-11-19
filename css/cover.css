@@ -304,9 +304,11 @@ color: #fff;
   
 }
 .Galeriavideotodo h4{
- 
+  background: rgb(37, 37, 37);
 text-align: center;
  margin-top: 370px;
+ border-radius: 30px;
+ 
 }
 
 .Galeriavideito video{
@@ -379,7 +381,7 @@ transition: all 0.5s;
 }
 .Videos1:hover{
   
-transform: scale(1.1);
+transform: scale(1.05);
 }
 
 .info-pet {
