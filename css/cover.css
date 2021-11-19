@@ -43,12 +43,12 @@ section {
 
 /*-----------------Scroll--------------------*/
 body::-webkit-scrollbar {
-  width: 0.4375em;
+  width: 0.375em;
 }
 
 body::-webkit-scrollbar-thumb {
   background: rgb(218, 162, 41);
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 
@@ -258,20 +258,26 @@ color: #fff;
 }
 .contenedorVideos {
   width: 98%;
-  margin: auto;
+  
   
 }
 #info .contenedorVideos {
-  
   justify-content: center;
-  display: flex;
-  flex-wrap: wrap;
+  margin: auto;
+  
   
   
 
 }
 .info-pet {
   margin: 20px;
+  margin: auto;
+
+}
+.info-pet h3{
+  
+  margin: auto;
+  
 
 }
 .info-pet img{
@@ -284,19 +290,96 @@ color: #fff;
 
 
 /*-----------------GaleriaDeImagenes2-----------------*/
+/*-----------------GaleriaVideos-----------------*/
+#Videos {
+  background-color: #333;
+  text-align: center;
+  width: 1000px;
+  height: 1750px;
+  margin: auto;
+  margin-bottom: 20px;
+  border-radius: 20px;
+ 
+  
+}
+
+.Galeriavideito video{
+float:left;
+
+  
+}
+.Galeriavideito2 video{
+  float:right;
+  
+    
+  }
+.Galeriavideotodo {
+  width: 90%;
+  
+}
+#Videos .Galeriavideotodo {
+  margin: auto;
+
+}
+
+.Textovideo3 {
+
+line-height: 2;
+margin-top: 200px;
+
+border-radius: 20px;
+
+}
+
+.Textovideo3 p{
+
+
+  color: rgb(221, 178, 59);
+
+  }
+
+  .Textovideo4 {
+
+    line-height: 2;
+    padding-top: 700px;
+    
+    border-radius: 20px;
+    
+    }
+    
+    .Textovideo4 p{
+    
+    
+      color: rgb(221, 178, 59);
+    
+      }
+
+
+/*-----------------GaleriaVideos-----------------*/
 
 
 /*-----------------Videos-----------------*/
 
-.Videos1 {
-  float: left;
-margin: 50px;
 
+.Videos1 {
+
+  margin:auto;
+ 
+  
+margin: 50px;
+border-radius: 50px;
+box-shadow: 6px 6px 5px rgba(0, 0, 0, 0.322);
+transition: all 0.5s;
+}
+.Videos1:hover{
+  
+transform: scale(1.1);
 }
 
 .info-pet {
   background: rgb(48, 48, 48);
 padding-bottom: 30px;
+
   
 }
 
@@ -304,10 +387,25 @@ padding-bottom: 30px;
 #Textovideo {
 
 background: rgb(83, 83, 83);
-
+margin:auto;
 border-radius: 5px;
 box-shadow: 6px 6px 5px rgba(0, 0, 0, 0.322);
+width: 1000px;
+height: 760px;
+padding-top: 300px;
+padding-right: 30px;
+
 }
+#Textovideo p{
+box-shadow: 5px 5px 5px #333;
+background: #333;
+
+
+
+}
+
+
+
 .contenedor h3 {
 margin-top: 15px;
 
@@ -339,9 +437,15 @@ margin-bottom: 15px;
   color: rgb(221, 178, 59);
 }
 
-#Textovideo p{
- 
+#Textovideo {
+  
   color: rgb(221, 178, 59);
+ 
+}
+#Textovideo p {
+  
+  color: rgb(221, 178, 59);
+ 
 }
 
 #Textovideo3 p{
