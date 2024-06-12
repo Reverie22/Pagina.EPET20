@@ -1,0 +1,42 @@
+.mapa {
+    align-items: center;
+     position: relative;
+    margin: auto;
+    padding-bottom: 70px;
+
+
+    
+}
+#telefonos h3{
+    text-align: center;
+    padding-bottom: 20px;
+}
+#telefonos h4{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+hr{
+    width:60%;
+    margin-left: 20%;
+}
+a{
+    text-decoration: none;
+    color:#E4AC20;
+}
+#Mapa h3 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#Mapa {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+@media (min-width:1024px) {
+    #Mapa {
+        width: auto;
+        height: auto;
+    }
+}
